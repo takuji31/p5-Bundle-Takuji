@@ -1,0 +1,39 @@
+This is Perl module Bundle::Takuji.
+
+INSTALLATION
+
+Type the following command:
+
+    $ curl -L http://cpanmin.us | perl - Bundle::Takuji
+
+Or install cpanm and then run the following command to install
+Bundle::Takuji:
+
+    $ cpanm Bundle::Takuji
+
+If you get an archive of this distribution, unpack it and build it
+as per the usual:
+
+    $ tar xzf Bundle-Takuji-$version.tar.gz
+    $ cd Bundle-Takuji-$version
+    $ perl Build.PL
+    $ ./Build && ./Build test
+
+Then install it:
+
+    $ ./Build install
+
+DOCUMENTATION
+
+Bundle::Takuji documentation is available as in POD. So you can do:
+
+    $ perldoc Bundle::Takuji
+
+to read the documentation online with your favorite pager.
+
+LICENSE AND COPYRIGHT
+
+Copyright (c) 2012, Nishibayashi Takuji. All rights reserved.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
